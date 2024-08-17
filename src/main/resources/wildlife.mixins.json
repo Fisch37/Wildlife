@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.fisch37.wildlife.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnimalEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

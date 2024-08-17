@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wildlife",
+  "version": "${version}",
+  "name": "Wildlife",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/repopulation/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.fisch37.wildlife.client.Wildlife"
+    ],
+    "main": [
+      "de.fisch37.wildlife.Wildlife"
+    ]
+  },
+  "mixins": [
+    "wildlife.mixins.json",
+    {
+      "config": "wildlife.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
