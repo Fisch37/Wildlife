@@ -20,3 +20,6 @@ Current aims are:
    4. Herd merging? 
       Herds of the same type that meet join
       into one? TODO: Figure out conditions
+3. Compatibility for Fabric Seasons 
+   or Hourglass (when I get that done)
+   where applicable
